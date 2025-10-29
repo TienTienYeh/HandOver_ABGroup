@@ -1,4 +1,34 @@
-This file shows the list of Jypiter notebook and python.
+Log File Description
 
-The origional Jypiter files for the manuscript **Structured light and induced vorticity in superconductors I: Linearly polarized light** (https://arxiv.org/abs/2407.15834)
+This text file lists the Jupyter notebooks and Python scripts associated with the manuscript:
+“Structured light and induced vorticity in superconductors I: Linearly polarized light”
+(arXiv:2407.15834)
 
+File Descriptions
+
+File: M1fig1a_CoLab_LG_freq.ipynb
+Description: Simulates the frequency-dependent light field (linearly polarized Gaussian beam) and generates snapshots of the superconducting order-parameter profile.
+
+File: M1fig1b_CoLab_LG_imprint.ipynb
+Description: Demonstrates the imprinting effect between the optical magnetic field and the induced vorticity of the supercurrent.
+
+File: M1fig1c_CoLab_LG_edge.ipynb
+Description: Simulates vortex distributions as a function of the optical spot size.
+
+File: M1fig2a_CoLab_LG_distribution.ipynb
+Description: Visualizes the spatial distribution of vortices under different illumination conditions.
+
+File: M1fig2b_CoLab_LG_relaxation.ipynb
+Description: Models the pulse-laser excitation and the subsequent relaxation dynamics of the superconducting order parameter.
+
+File: M1fig2b_CoLab_relaxation_analysis.ipynb
+Description: Performs quantitative analysis of the relaxation process obtained from the simulations.
+
+File: M1fig6_CoLab_LG_xi.ipynb
+Description: Investigates vortex distributions for different superconducting coherence lengths.
+
+File: M1fig6_Jc.ipynb
+Description: Determines the critical current density of the superconducting slab.
+
+File: M1SI_readH5_M1fig2.ipynb
+Description: Reads simulation data in .h5 format and outputs figures used in the Supplementary Video.
