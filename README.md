@@ -2,13 +2,14 @@
 
 **Author:** Tien-Tien Yeh  
 **Affiliations:** Nordita (Stockholm University & KTH Royal Institute of Technology), University of Connecticut  
-**Collaborators:** Evan Wilson, Mikael Fogelström, Alexander V. Balatsky  
+**Group & PI:** Theoretical Quantum Matter[**Theoretical Quantum Matter**](https://https://tqmatter.org/),  Alexander V. Balatsky
+(This README file was prepared with the assistance of ChatGPT, OpenAI.)
 
 ---
 
 ## 📘 Overview
 This repository provides **Jupyter Notebooks** and **Python scripts** used for the simulations and analyses presented in three manuscripts on *structured-light-induced vortex dynamics* and *non-equilibrium superconductivity*.  
-All simulations are based on the **time-dependent Ginzburg–Landau (TDGL)** and **generalized TDGL (gTDGL)** formalisms, primarily implemented using [**pyTDGL**](https://github.com/loganbvh/py-tdgl).
+All simulations are based on the **time-dependent Ginzburg–Landau (TDGL)** and **generalized TDGL (gTDGL)** formalisms, primarily implemented using [**pyTDGL**](https://github.com/loganbvh/py-tdgl) and our published Github repository [**LG-TDGL**](https://github.com/TienTienYeh/lg-tdgl).
 
 ---
 
@@ -57,7 +58,7 @@ All simulations are based on the **time-dependent Ginzburg–Landau (TDGL)** and
 ---
 
 ## ⚙️ Dependencies
-- Python ≥ 3.9  
+- Python ≥ 3.1
 - NumPy, SciPy, Matplotlib  
 - h5py  
 - [pyTDGL](https://github.com/loganbvh/py-tdgl) — L. Bishop-Van Horn *et al.*, *Comput. Phys. Commun.* **291**, 108799 (2023)
@@ -71,3 +72,47 @@ All simulations are based on the **time-dependent Ginzburg–Landau (TDGL)** and
    ```bash
    git clone https://github.com/your-username/quantum-printing-superconductors.git
    cd quantum-printing-superconductors
+   ```
+2. Create a Python environment and install requirements  
+   ```bash
+   python -m venv env  
+   source env/bin/activate  # on Windows: env\Scripts\activate  
+   pip install -r requirements.txt
+   ```
+3. Launch Jupyter Lab or Notebook and open any file under  
+   `/manuscript_I/`, `/manuscript_II/`, or `/manuscript_III/`.
+
+### ▶ Option 2 — Run on Google Colab
+Each notebook can be executed directly on Colab:  
+1. Open the desired `.ipynb` file on GitHub.  
+2. Click **“Open in Colab”** (if enabled) or paste the GitHub URL into [Colab](https://colab.research.google.com).  
+3. Mount Google Drive if needed and run the cells sequentially.
+
+---
+
+## 📂 Directory Structure
+```
+/manuscript_I/      → Jupyter Notebooks for Part I  
+/manuscript_II/     → Jupyter Notebooks for Part II  
+/manuscript_III/    → Python scripts for Part III  
+/videos/            → Generated .mp4 files for Supplementary Materials  
+```
+
+---
+
+## 🧭 Citation
+If you use or reference these codes, please cite the corresponding manuscripts:  
+1. Yeh *T-T et al.*, *Structured light and induced vorticity in superconductors I* ([arXiv:2407.15834](https://arxiv.org/abs/2407.15834))  
+2. Yeh *T-T et al.*, *Structured light and induced vorticity in superconductors II* ([arXiv:2412.00935](https://arxiv.org/abs/2412.00935))  
+3. Yeh *T-T et al.*, *Light-induced Berezinskii–Kosterlitz–Thouless transition in superconducting films* ([arXiv:2510.22645](https://arxiv.org/abs/2510.22645))
+
+---
+
+## 🧠 Contact
+**Tien-Tien Yeh**  
+📧 [tien-tien.yeh@uconn.edu](mailto:tien-tien.yeh@uconn.edu)  
+🌐 [Google Scholar](https://scholar.google.com/) | [ORCID](https://orcid.org/)
+
+---
+
+*This repository supports open-source reproducibility in the study of structured-light-driven vortex dynamics and non-equilibrium superconductivity.*
