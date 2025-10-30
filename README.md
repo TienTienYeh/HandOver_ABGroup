@@ -40,6 +40,7 @@ All simulations are based on the **time-dependent Ginzburg–Landau (TDGL)** and
 | `M2fig_CoLab_plot3D_general.ipynb` | Generates 3D vortex-trajectory visualizations from `.h5` data. |
 | `M2SI_readH5_general.ipynb` | Reads `.h5` simulation files and produces figures for analysis and supplementary materials. |
 | `M2_PNG2video_output_general.ipynb` | Converts sequential `.png` images into `.mp4` videos for Supplementary Materials. |
+| `M2_PNG2fig_figs.ipynb` | Converts multi .png images outputs into a single figure for presentation. |
 
 ---
 

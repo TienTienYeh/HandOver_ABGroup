@@ -17,3 +17,6 @@ Description: Reads .h5 simulation files and produces the corresponding figures f
 
 File: M2_PNG2video_output_general.ipynb
 Description: Converts sequential .png image outputs into .mp4 video files for use in the Supplementary Materials.
+
+File: M2_PNG2fig_figs.ipynb
+Description: Converts multi .png images outputs into a single figure for presentation.
