@@ -4,8 +4,6 @@
 **Affiliations:** Nordita (Stockholm University & KTH Royal Institute of Technology), University of Connecticut  
 **Group & PI:** [Theoretical Quantum Matter](https://https://tqmatter.org/),  Alexander V. Balatsky
 
-(This README file was prepared with the assistance of ChatGPT, OpenAI.)
-
 ---
 
 ## 📘 Overview
@@ -111,9 +109,11 @@ If you use or reference these codes, please cite the corresponding manuscripts:
 
 ## 🧠 Contact
 **Tien-Tien Yeh**  
-📧 [tien-tien.yeh@uconn.edu](mailto:tien-tien.yeh@uconn.edu)  
-🌐 [Google Scholar](https://scholar.google.com/) | [ORCID](https://orcid.org/)
+📧 [vap24003@uconn.edu](mailto:vap24003@uconn.edu)  
+🌐 [Google Scholar](https://scholar.google.com/citations?user=ScHbQ7UAAAAJ) | [ORCID](https://orcid.org/0000-0003-3126-3033)
 
 ---
 
 *This repository supports open-source reproducibility in the study of structured-light-driven vortex dynamics and non-equilibrium superconductivity.*
+
+*This README file was prepared with the assistance of ChatGPT, OpenAI.*
