@@ -2,7 +2,8 @@
 
 **Author:** Tien-Tien Yeh  
 **Affiliations:** Nordita (Stockholm University & KTH Royal Institute of Technology), University of Connecticut  
-**Group & PI:** Theoretical Quantum Matter[**Theoretical Quantum Matter**](https://https://tqmatter.org/),  Alexander V. Balatsky
+**Group & PI:** [Theoretical Quantum Matter](https://https://tqmatter.org/),  Alexander V. Balatsky
+
 (This README file was prepared with the assistance of ChatGPT, OpenAI.)
 
 ---
