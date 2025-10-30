@@ -1,1 +1,19 @@
-The origional Jypiter/PY files for the manuscript **Light induced Berezinskii-Kosterlitz-Thouless transition in Superconducting Films**   
+Log File Description
+
+This text file lists the Jupyter Notebook and Python files associated with the manuscript:
+“Light-induced Berezinskii–Kosterlitz–Thouless transition in superconducting films”
+(Preprint: arXiv:2510.22645)
+
+File Descriptions
+
+File: M3_UConn_arg_6TB.py
+Description: Main simulation script modeling a superconducting slab driven by a DC current and a circularly polarized optical field.
+
+File: M3_UConn_arg_EkCor.py
+Description: Performs analysis of the kinetic energy and correlation functions derived from the simulation data.
+
+File: M3_UConn_arg_SI.py
+Description: Generates Supplementary Material videos from simulation results stored in .h5 files.
+
+File: M3_PNG2video_output_UConnHCP.py
+Description: Converts sequential .png image outputs into .mp4 video files.

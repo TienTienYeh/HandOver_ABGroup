@@ -1,4 +1,19 @@
+Log File Description
 
-                                                                                                                                     
-The origional Jypiter files for the manuscript **Structured light and induced vorticity in superconductors II: Quantum Print with Laguerre-Gaussian beam** (https://arxiv.org/abs/2412.00935)
+This text file lists the Jupyter notebooks associated with the manuscript:
+“Structured light and induced vorticity in superconductors II: Quantum Printing with Laguerre–Gaussian beams”
+(arXiv:2412.00935)
 
+File Descriptions
+
+File: M2fig2a_CoLab_LG_40tau_general.ipynb
+Description: Main simulation of vortex dynamics under Laguerre–Gaussian (LG) beam illumination. The relevant input parameters—such as sample dimensions, optical quantum numbers, and electric field strength—are described in the manuscript.
+
+File: M2fig_CoLab_plot3D_general.ipynb
+Description: Generates 3D visualizations of vortex trajectories from simulation data stored in .h5 files.
+
+File: M2SI_readH5_general.ipynb
+Description: Reads .h5 simulation files and produces the corresponding figures for analysis and supplementary materials.
+
+File: M2_PNG2video_output_general.ipynb
+Description: Converts sequential .png image outputs into .mp4 video files for use in the Supplementary Materials.
